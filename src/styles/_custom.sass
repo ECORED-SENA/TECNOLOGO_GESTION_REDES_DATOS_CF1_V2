@@ -1,19 +1,333 @@
 .banner-principal-decorativo
   &-1
+    animation: float4 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 38%
+    left: 15%
+    z-index: -1
+  &-2
+    animation: float3 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 24%
+    right: 22%
+  &-4
+    animation: rotation 6s infinite linear
+    position: absolute
+    top: 72%
+    left: 10%
+    z-index: 1
+
+  &-3
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 50%    
+    right: 20%    
 
+@keyframes rotation 
+  from 
+    -webkit-transform: rotate(0deg)  
+  to 
+    -webkit-transform: rotate(359deg)
 
 @keyframes float1
-  0%
-    transform: translateY(20px)
+	0% 
+		transform: rotate(0deg) translateX(10px) rotate(-20deg)
+	
 
-  100%
-    transform: translateY(0px)
+	100% 
+		transform: rotate(180deg) translateX(10px) rotate(-180deg)  
+
+@keyframes float3
+	0% 
+		transform: rotate(0deg) translateX(-10px) rotate(10deg)
+	
+
+	100% 
+		transform: rotate(160deg) translateX(-10px) rotate(-180deg)  
+
+@keyframes float2
+	0% 
+		transform: rotate(0deg) translateX(-10px) rotate(-10deg)
+	
+
+	100% 
+		transform: rotate(180deg) translateX(-10px) rotate(-180deg)   
+
+@keyframes float4
+	0% 
+		transform: rotate(0deg) translateX(20px) rotate(20deg)
+	
+
+	100% 
+		transform: rotate(-180deg) translateX(20px) rotate(180deg)    
+
+.banner-principal .tarjeta
+  background-position: left 50% !important
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto
+
+.img-mov
+  @media (max-width: 810px)
+    display: block
+    margin: auto
+    width: auto
+    height: auto    
+
+.j
+  display: grid
+  place-items: center  
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/5.png") !important  
+
+.titulo-principal__numero span
+  color: white !important 
+
+.banner-principal__img
+  z-index: 1  
+
+.slyder-f__btn i
+  color: #F9305F !important  
+
+.bloque-texto-a.color-acento-contenido 
+  background-color: #d8ecff6e
+  //background: linear-gradient(180deg,#fff,#d2e6ee)
+  &--color2
+    background-color: #1E5AF9
+    &::before
+      background-color: #F2F5FD
+
+
+.bloque-texto-b i 
+  font-size: 1.5em
+
+.bloque-texto-b.color-secundario:before 
+  background-color: #d2e1f1
+.cajon.color-acento-contenido::before
+  background-color: #1E5AF9
+.bloque-texto-f.color-secundario:before 
+  background-color: #d2e1f1
+    
+.cajon.color-acento-contenido 
+  //background-color: #37a3a559
+  background-color: #DDE6FE
+
+.cajon.color-acento-contenido-especial
+  background-color: #c0e2e36b
+
+.fa-play
+  color: $color-acento-contenido
+  font-size: 12px
+  margin-right: 6px
+  
+.tarjeta--azul 
+    background-color: #f7f7f8
+
+.tabla-b.color-secundario .tabla-b__header, .color-secundario.tabla-c .tabla-b__header
+  background-color: #b6defd
+
+.texto-vertical 
+  writing-mode: vertical-rl
+  transform: rotate(180deg)
+  font-size: 20px
+  font-weight: bold
+  margin: 0
+
+.tabla-b th
+  //border: 1px solid #000
+  border-left:  1px solid #000
+  border-bottom:  1px solid #000
+
+.tabla-b td
+  border: 1px solid #e8e8e8;
+
+.boton.color-acento-contenido, .color-acento-contenido.boton--sm 
+  background-color: #0f2d58
+.tarjeta.color-secundario 
+  background-color: #DFE8FE
+  border-radius: 15px
+  *
+    color: #12263F
+  
+.colorSecundario 
+  background-color: #12263F
+
+.colorSecundario p
+  color: #fff
+
+.colorSecundario .h2
+  color: #fff
+
+
+
+.round--number
+  width: 50px
+  height: 50px
+  background-color: white
+  border: 3px solid #1E5AF9
+  border-radius: 999px
+  p 
+    font-size: 25px
+    font-weight: 800
+    text-align: center
+    padding-top: 3px
+
+.tarjeta.tarjeta--gris
+  padding: 1.5rem
+  
+  //border-radius: 0 !important
+
+/*.bloque-texto-b:before
+    top: 76%
+    bottom: 7%
+    left: 23%
+    right: 8%*/
+
+/*Imagen con puntos FIREWALESS*/
+.img-infografica.color-secundario .img-infografica__item__dot:before, .img-infografica.color-secundario .img-infografica__item__dot:after 
+  background-color: #FFEB54
+
+//tabs ataques activos
+.tabs-c.color-acento-contenido .tabs-c__tab--active 
+  font-weight: bold
+
+
+Linea de tiempo D 
+
+.linea-tiempo-d
+  &__item
+    &--selected
+      .linea-tiempo-d
+        &__item
+          &__content
+            background-color: #F6F6F6 !important
+            &__title
+              font-weight: $base-bold-font-weight
+          &__number
+            font-weight: $base-bold-font-weight
+    &__col-number
+      display: flex
+      flex-direction: column
+
+    &__dots
+      flex: 1
+      display: flex
+      justify-content: center
+      padding: 5px 0
+      &:after
+        content: ''
+        display: block
+        width: 0
+        height: 100%
+        border-left: 5px dotted $color-sistema-e
+    &__number
+      display: flex
+      align-items: center
+      justify-content: center
+      min-width: 40px
+      height: 40px
+      cursor: pointer
+      transition: background-color .3s ease-in-out, color .3s ease-in-out
+    &__content
+      background-color: #F6F6F6 !important     
+      &__title
+        display: flex
+        align-items: center
+        height: 40px
+        cursor: pointer
+        &:hover
+          font-weight: $base-bold-font-weight
+      &__slot
+        overflow: hidden
+        transition: height .5s ease-in-out
+  .tarjeta
+    border-radius: 5px
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #F6F6F6 !important
+  color: #12263F
+  
+.linea-tiempo-d__item__number
+  background-color: #F6F6F6 !important
+
+@media (max-width: 412px)
+  .linea-tiempo-d__item__content__title 
+    height: 85px !important    
+
+
+.bloque-texto-b.color-secundario::before
+  background-color: #E9E2FF  
+
+.bloque-texto-a.color-acento-contenido::before
+  background-color: #1E5AF9  
+.bloque-texto-a.color-acento-contenido  
+  background-color: #F2F5FD  
+.brad
+  border-radius: 15px
+.bg1
+  background-color: #6E40FC
+  *
+    color: white    
+.bg1:hover
+  background-color: #12263F
+
+.tarjeta.color-primario
+  background-color: #FEE0E7  
+
+.bloque-texto-f.color-secundario::before
+  background-color: #F1EDFF   
+
+.tarjeta.color-secundario
+  background-color:   
+.text-black
+  color: #12263F !important
+.bg
+  &11
+    background-image: url(../assets/curso/tema1/3.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center  
+  &12
+    background-color: #12263F !important
+    *
+      color: white !important      
+  &13
+    background-image: url(../assets/curso/tema1/12.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center    
+
+.tarjeta.color-acento-botones--borde
+  background-color: white
+  border: 4px solid #D5DBE2
+.tabs-a.color-acento-botones .tabs-a__tab__selected::before 
+  background-color: #F9305F
+  color: white !important  
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus, .tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #F9305F !important
+  color: white !important
+.tabs-a__tab 
+  background-color: #E8E8E8     
+
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: bold   
+
+.bloque-texto-b.color-acento-botones::before
+  background-color: #E9E2FF   
+
+.tabla-a thead
+  border-top: 0px  
