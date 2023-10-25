@@ -206,18 +206,12 @@ export default {
   },
   complementario: [
     {
-      texto:
-        'Cisco Networking Academy. (8 de junio de 2020). CCNA 7: Switching, Routing, and Wireless Essentials.',
-      tipo: 'Capítulo de curso en línea',
-      link:
-        'https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials ',
-    },
-    {
-      texto:
-        'Alonso, C. G., Gabriel, D., O., Ignacio, A., A., y Elio, S., R. (2014). Procesos y herramientas para la seguridad de redes. UNED.',
+      tema: 'Seguridad de información en la red',
+      referencia:
+        'Alonso, C. G., Gabriel, D., O., Ignacio, A., A., y Elio, S., R. (2014). <i>Procesos y herramientas para la seguridad de redes</i>. UNED.',
       tipo: 'Libro',
       link:
-        'https://books.google.com.co/books?hl=en&lr=&id=dG4lAwAAQBAJ&oi=fnd&pg=PP1&dq=gesti%C3%B3n+de+la+seguridad+en+redes&ots=N7ZStUK8Eb&sig=cAvWdpzsHjtY4Zvs3VQidyQjkJE&redir_esc=y#v=onepage&q=gesti%C3%B3n%20de%20la%20seguridad%20en%20redes&f=false',
+        'https://pdfcoffee.com/procesos-y-herramientas-para-la-daaz-orueta-gabrielcb-3-pdf-free.html ',
     },
   ],
   glosario: [
@@ -232,7 +226,7 @@ export default {
         'proceso que se realiza para verificar que una organización cumple con normas, políticas o estándares.',
     },
     {
-      termino: 'Backup',
+      termino: '<i>Backup</i>',
       significado:
         'copia de respaldo de la información existente para evitar pérdidas.',
     },
@@ -242,7 +236,7 @@ export default {
         'sistema que utiliza rasgos humanos únicos como medio de seguridad.',
     },
     {
-      termino: 'Bug',
+      termino: '<i>Bug</i>',
       significado: 'propiedad no deseada de un sistema.',
     },
     {
@@ -253,7 +247,7 @@ export default {
     {
       termino: 'Carga destructiva',
       significado:
-        'actividad maliciosa que realiza el malware. Una carga destructiva es independiente de las acciones de instalación y propagación que realiza el malware.',
+        'actividad maliciosa que realiza el <i>malware</i>. Una carga destructiva es independiente de las acciones de instalación y propagación que realiza el <i>malware</i>.',
     },
     {
       termino: 'Ciberdelincuente',
@@ -277,7 +271,7 @@ export default {
     {
       termino: 'DevOps',
       significado:
-        'metodología de desarrollo de software que integra las capas de desarrollo, pruebas, implementación, calidad y gestión.',
+        'metodología de desarrollo de <i>software</i> que integra las capas de desarrollo, pruebas, implementación, calidad y gestión.',
     },
     {
       termino: 'Encriptación',
@@ -290,7 +284,7 @@ export default {
         'salida no controlada de información que hace que esta llegue a personas no autorizadas.',
     },
     {
-      termino: 'Hacker',
+      termino: '<i>Hacker</i>',
       significado:
         'persona experta en tecnología dedicada a intervenir y/o realizar alteraciones técnicas con buenas o malas intenciones.',
     },
@@ -306,7 +300,7 @@ export default {
     {
       termino: 'Programa malicioso',
       significado:
-        'también conocidos como malware que contienen virus, spyware y otros programas indeseados que se instalan sin consentimiento.',
+        'también conocidos como <i>malware</i> que contienen virus, <i>spyware</i> y otros programas indeseados que se instalan sin consentimiento.',
     },
   ],
   referencias: [
@@ -453,9 +447,9 @@ export default {
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Revisora metodológica y pedagógica',
+          cargo: 'Metodólogo para formación virtual',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica Regional  Distrito Capital',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
@@ -469,13 +463,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -547,13 +541,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',

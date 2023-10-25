@@ -80,7 +80,7 @@
           .col
             .tarjeta.tarjeta--gris
               p Detallar correcta y explícitamente el alcance de las políticas y así evitar tensiones cuando se establezcan los mecanismos de seguridad conforme con las políticas trazadas (Coite y Romero, s.f.).
-      .col-lg-5.align-self-end
+      .col-lg-5.align-self-center
         figure
         img(src="@/assets/curso/tema2/img5.svg", style="width:70%").mx-auto    
 
@@ -109,7 +109,7 @@
         .row.justify-content-center
           .col-xl-8.align-self-center
             h2 Identificación
-            p Se debe indagar por el conjunto de activos de la organización, incluido el hardware, software, personal, sistemas y datos, servidores, programas informáticos, y servicios externos como alojamiento web que conforman el sistema informático. 
+            p Se debe indagar por el conjunto de activos de la organización, incluido el #[i hardware], #[i software], personal, sistemas y datos, servidores, programas informáticos, y servicios externos como alojamiento web que conforman el sistema informático. 
           .col-xl-4.mb-4
             figure
               img(src='@/assets/curso/tema2/img7.svg', alt='Texto que describa la imagen', style="width:100%;").mx-auto
@@ -120,7 +120,7 @@
         .row.justify-content-center
           .col-xl-8.align-self-center
             h2 Evaluación de riesgos
-            p Establecer qué pone en peligro los activos anteriores. Por ejemplo, los virus informáticos, hackers, daños físicos o errores de los funcionarios. 
+            p Establecer qué pone en peligro los activos anteriores. Por ejemplo, los virus informáticos, #[i hackers], daños físicos o errores de los funcionarios. 
           .col-xl-4.mb-4
             figure
               img(src='@/assets/curso/tema2/img8.svg', alt='Texto que describa la imagen', style="width:100%;").mx-auto
@@ -141,7 +141,7 @@
         .row.justify-content-center
           .col-xl-8.align-self-center
             h2 Tomar las precauciones adecuadas
-            p Una vez identificados los riesgos, decidir los pasos a seguir para asegurar que el negocio operará normalmente si ocurre una crisis. Por ejemplo, restringir el acceso a servidores o instalar un firewall de hardware (Noriega, 2016). 
+            p Una vez identificados los riesgos, decidir los pasos a seguir para asegurar que el negocio operará normalmente si ocurre una crisis. Por ejemplo, restringir el acceso a servidores o instalar un #[i firewall] de #[i hardware] (Noriega, 2016). 
           .col-xl-4.mb-4
             figure
               img(src='@/assets/curso/tema2/img10.svg', alt='Texto que describa la imagen', style="width:100%;").mx-auto
@@ -161,7 +161,7 @@
           .tarjeta.tarjeta--azul
             .p-4
               h3 Usar gestor de contraseñas
-              p El uso de contraseñas es el modelo de autenticación más utilizado para proteger las cuentas de plataformas, programas y servicios, aunque los usuarios vean la importancia de establecer una contraseña robusta con cambio periódico que impida el robo de la misma. La solución de los problemas anteriores la puede dar un gestor de contraseñas que permite tener una contraseña maestra para dar acceso a las cuentas.
+              p El uso de contraseñas es el modelo de autenticación más utilizado para proteger las cuentas de plataformas, programas y servicios, aunque los usuarios vean la importancia de establecer una contraseña robusta con cambio periódico que impida el robo de la misma. La solución de los problemas anteriores la puede dar un gestor de contraseñas, que permite tener una contraseña maestra para dar acceso a las cuentas.
     
     .row.justify-content-center
       .col-lg-10
@@ -181,7 +181,7 @@
           .tarjeta.tarjeta--azul
             .p-4
               h3 Utilizar el escaneo de credenciales
-              p Permite detectar vulnerabilidades y evitar inconvenientes rotando credenciales. Igualmente sirve restringir, admitir o eliminar las credenciales compartidas para el acceso a otras áreas del sistema.
+              p Permite detectar vulnerabilidades y evitar inconvenientes, rotando credenciales. Igualmente sirve para restringir, admitir o eliminar las credenciales compartidas para el acceso a otras áreas del sistema.
     
     .row.justify-content-center
       .col-lg-10
@@ -191,7 +191,7 @@
           .tarjeta.tarjeta--azul
             .p-4
               h3 Administrar bien las cuentas privilegiadas
-              p Gestionar correctamente las cuentas es vital para evitar riesgos de seguridad informática. Es importante controlar accesos a las cuentas privilegiadas de la organización, reducir al mínimo el número de cuentas; evitando así las brechas de seguridad (Gb-advisor, 2019).
+              p Gestionar correctamente las cuentas es vital para evitar riesgos de seguridad informática. Es importante controlar los accesos a las cuentas privilegiadas de la organización y reducir al mínimo el número de cuentas, evitando así las brechas de seguridad (Gb-advisor, 2019).
 
     separador.mb-4
 
@@ -214,7 +214,7 @@
         .bloque-texto-b.color-acento-botones.p-0
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              h5.mb-2 Un procedimiento de seguridad define las tareas o acciones a realizar en el desarrollo de un proceso relacionado con la seguridad y los grupos o personas responsables de su ejecución. Se especifican los pasos relacionados con la ejecución de un proceso o actividad que cumple con una norma o garantizar que en la ejecución de actividades cuenten con determinados aspectos de seguridad. Un procedimiento debe ser claro, sencillo de interpretar y sin ambigüedad en su ejecución. 
+              span.mb-2 #[b Un procedimiento de seguridad define las tareas o acciones a realizar en el desarrollo de un proceso relacionado con la seguridad y los grupos o personas responsables de su ejecución. Se especifican los pasos relacionados con la ejecución de un proceso o actividad que cumple con una norma o garantizar que en la ejecución de actividades cuenten con determinados aspectos de seguridad. Un procedimiento debe ser claro, sencillo de interpretar y sin ambigüedad en su ejecución.] 
                 p.text-end.mb-0
                   span -  Seguinfo, 2008
                   i.fas.fa-quote-right
@@ -238,7 +238,7 @@
                   img(src='@/assets/curso/tema2/img16.svg', alt='Objetivo', style="width:200px").mx-auto
               
             .h2.text-center Objetivo
-            p.text-center Implementar un SGSI con base en NTC ISO 27001 tiene como objetivo evaluar riesgos aplicando los controles existentes y, de ese modo, lograr su reducción o eliminación total. Las organizaciones que utilicen la ISO 27001 logran una ventaja competitiva y mejoran la imagen de marca.
+            p.text-center Implementar un SGSI con base en NTC ISO 27001, tiene como objetivo evaluar riesgos aplicando los controles existentes y, de ese modo, lograr su reducción o eliminación total. Las organizaciones que utilicen la ISO 27001 logran una ventaja competitiva y mejoran la imagen de marca.
           
           .col-md.tarjeta.color-acento-contenido.text-white.p-5
             .row.justify-content-center.mb-5
@@ -332,7 +332,7 @@
               p 2
           .col
             .tarjeta.tarjeta--gris
-              p Se suprime el carácter obligatorio de ciertos documentos y solo es obligatoria la Declaración de aplicabilidad. 
+              p Se suprime el carácter obligatorio de ciertos documentos y solo es obligatoria la declaración de aplicabilidad. 
 
         .row.align-items-start.mb-2
           .col-auto        

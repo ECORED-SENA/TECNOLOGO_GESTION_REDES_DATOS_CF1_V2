@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Seguridad de información en la red
-    p.mb-4 Tradicionalmente las redes cableadas o redes alámbricas se han considerado más seguras que las redes inalámbricas. El uso de internet y la evolución de las comunicaciones han hecho que las instalaciones no sean únicas, sino que pueden situarse a miles de kilómetros. A su vez una red privada virtual permite mediante el uso de Internet, establecer esta conexión realizando una inversión moderada. Una VPN o red privada es, básicamente, una red virtual que se crea dentro de otra red, habitualmente internet. Para un cliente VPN se trata de una conexión que se establece entre su equipo y el servidor, esta conexión es transparente para él, simplemente los datos le son enviados de la misma manera que si llegaran a través de la LAN a la que se conecta. 
+    p.mb-4 Tradicionalmente, las redes cableadas o redes alámbricas se han considerado más seguras que las redes inalámbricas. El uso de internet y la evolución de las comunicaciones, han hecho que las instalaciones no sean únicas, sino que pueden situarse a miles de kilómetros. A su vez, una red privada virtual permite mediante el uso de internet, establecer esta conexión realizando una inversión moderada. Una VPN o red privada es, básicamente, una red virtual que se crea dentro de otra red, habitualmente internet. Para un cliente VPN se trata de una conexión que se establece entre su equipo y el servidor, esta conexión es transparente para él, simplemente los datos le son enviados de la misma manera que si llegaran a través de la LAN a la que se conecta.
     
     .row.justify-content-center.mb-4
       .col-lg-11
@@ -14,7 +14,7 @@
             .row.m-0.align-items-center.justify-content-between
               .col-lg-8
                 .bloque-texto-a__texto.p-4
-                  p.mb-4 Por lo que los IDS [Intrusion Detection Systems - Sistemas de Detección de Intrusiones] son un paso adelante en las funciones que implementan los cortafuegos (firewalls). Existen varias herramientas de detección de intrusos, pero su uso es bastante complejo, algunos ejemplos más representativos son tripwire enterprise (permite detectar las acciones en la red que no se ajustan a la política de seguridad de la empresa, e informar de aquellos que necesitan especial atención) y snort (es una aplicación de código abierto que permite tanto la detección de intrusión como su prevención) (B2B Consultores, 2020).
+                  p.mb-4 Por lo que los IDS [#[i Intrusion Detection Systems] - Sistemas de Detección de Intrusiones] son un paso adelante en las funciones que implementan los cortafuegos (#[i firewalls]). Existen varias herramientas de detección de intrusos, pero su uso es bastante complejo, algunos ejemplos más representativos son #[i tripwire enterprise] (permite detectar las acciones en la red que no se ajustan a la política de seguridad de la empresa, e informar de aquellos que necesitan especial atención) y snort (es una aplicación de código abierto que permite tanto la detección de intrusión como su prevención) (B2B Consultores, 2020).
                   p Este IDS escucha el tráfico de la red en tiempo real y lo relaciona con una serie de normas ya predefinidas, que pueden descargarse desde internet. Cuando encuentra alguna coincidencia alerta sobre ella, hace un log de dicho tráfico o lo ignora, según se ha indicado en la norma (B2B Consultores, 2020).
               .col-lg-4.mb-4.mb-lg-0.align-self-center
                 figure
@@ -28,9 +28,9 @@
         figure
           img(src='@/assets/curso/tema1/img2.svg', alt="integridad").mx-auto
       .col-lg-7.self-align-center
-        p.mb-4 Es una característica que permite mantener los datos sin modificaciones no autorizadas, que la información permanezca tal como fue generada, sin manipulación o alteraciones realizadas por personal no autorizado.
+        p.mb-4 Es una característica que permite mantener los datos sin modificaciones no autorizadas, y que la información permanezca tal como fue generada, sin manipulación o alteraciones realizadas por personal no autorizado.
         .cajon.color-acento-contenido.p-4.mb-4
-          p Hay violación de integridad cuando un empleado, proceso o programa borra o modifica datos importantes que pertenecen a la información. Para conservar la integridad de un mensaje se debe adjuntar los datos de comprobación de integridad, por ejemplo, la firma digital es uno de ellos.
+          p Hay violación de integridad cuando un empleado, proceso o programa, borra o modifica datos importantes que pertenecen a la información. Para conservar la integridad de un mensaje, se deben adjuntar los datos de comprobación de integridad, por ejemplo, la firma digital es uno de ellos.
 
     separador.mb-4
 
@@ -73,25 +73,13 @@
 
     #t_1_4.titulo-segundo.color-acento-contenido
       .h2 1.4 Ataques a la seguridad de la red
-
-    figure(style="margin-bottom:70px;")
+    figure
       .video
         iframe(width="734" height="413" src="https://www.youtube.com/embed/x56FT_OVARQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figcaption Video. Ataques de seguridad en la red
 
-
-    .h3.mb-4 Ataques pasivos
-    p.mb-4 En lo referente a la Configuración de mecanismos de seguridad (ITCFA-Fepade, s.f.), se enuncia que:
-    
-    .row.mb-5.justify-content-center
-      .col-lg-10.mb-5.mb-lg-0
-        .bloque-texto-b.color-secundario.p-0
-            .bloque-texto-b__texto
-              i.fas.fa-quote-left
-              span.mb-2 
-                strong(style="font-size:20px;") [...] el atacante no altera la comunicación, sino que únicamente la escucha o monitoriza, para obtener información que está siendo transmitida. Sus objetivos son la intercepción de datos y el análisis de tráfico, una técnica más sutil para obtener información de la comunicación, que puede consistir en:
-              i.fas.fa-quote-right
-              //p.text-end.mb-0
-                b -  Artículo 18,  Acuerdo 617 de 2018
+    .h3.mt-5.mb-4 Ataques pasivos
+    p.mb-5 En lo referente a la Configuración de mecanismos de seguridad (ITCFA-Fepade, s.f.), se enuncia que: […] el atacante no altera la comunicación, sino que únicamente la escucha o monitoriza, para obtener información que está siendo transmitida. Sus objetivos son la intercepción de datos y el análisis de tráfico, una técnica más sutil para obtener información de la comunicación, que puede consistir en:
     
     .row.justify-content-center.mb-5
       .col-lg-3.mb-4
@@ -124,7 +112,7 @@
               img(src='@/assets/curso/tema1/tabsC/img1.svg', alt='Degradación', style="width:70%;").mx-auto
               
           .col-md-6.align-self-center
-            h2.mb-4 Degradación fraudulenta del servicio
+            h4.mb-4 Degradación fraudulenta del servicio
             p Este ataque frena el desarrollo y gestión de recursos informáticos y de comunicaciones, causando interrupciones del servicio de una red, eliminación de mensajes específicos, parálisis temporal de servidores FTP, web o de correo. La imagen da una idea de lo que puede suceder con este ataque.
 
       .py-3.py-md-4(titulo="Modificación")
@@ -134,7 +122,7 @@
               img(src='@/assets/curso/tema1/tabsC/img2.svg', alt='Modificación', style="width:85%;").mx-auto
               
           .col-md-6.align-self-center
-            h2.mb-4 Modificación de mensajes
+            h4.mb-4 Modificación de mensajes
             p Se efectúa alteración, reordenación o retardo de los mensajes produciendo una situación no autorizada. La figura ilustra una modificación de mensajes.
 
       .py-3.py-md-4(titulo="Repetición")
@@ -144,7 +132,7 @@
               img(src='@/assets/curso/tema1/tabsC/img3.svg', alt='Repetición', style="width:85%;").mx-auto
               
           .col-md-6.align-self-center
-            h2.mb-4 Repetición
+            h4.mb-4 Repetición
             p Se produce la captura y repetición de mensajes para producir un resultado no autorizado, un claro ejemplo es el de realizar consignaciones repetidas en una determinada cuenta.
 
       .py-3.py-md-4(titulo="Suplantación")
@@ -154,7 +142,7 @@
               img(src='@/assets/curso/tema1/tabsC/img4.svg', alt='Suplantación', style="width:85%").mx-auto
               
           .col-md-6.align-self-center
-            h2.mb-4 Suplantación de identidad
+            h4.mb-4 Suplantación de identidad
             p  Aquí el intruso pretende ser otra entidad incluyendo otras formas activas de ataque y poder así capturar y repetir secuencias de autenticación, robar la contraseña de ingreso a una cuenta, permitiendo su acceso a los recursos especiales suplantando así al usuario que posee dichos privilegios. 
 
     separador
@@ -198,9 +186,9 @@
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
-          h4.mb-5.text-center.text-regular.bloque-texto-f__texto Una aplicación gratuita para uso no comercial (en origen era libre). Sus desarrolladores producen decenas de nuevos análisis de vulnerabilidades a la semana. Estos análisis (llamados plugins) se publican para uso gratuito una semana después de su puesta a disposición de los clientes de pago. OpenVAS (inicialmente Nessus) es un analizador libre que nació como una ramificación del último Nessus libre. Los análisis de vulnerabilidades son llamados NVT (Network Vulnerability Tests) (Guimi.net, 2009).
+          p.mb-5.text-center.text-regular.bloque-texto-f__texto Una aplicación gratuita para uso no comercial (en origen era libre). Sus desarrolladores producen decenas de nuevos análisis de vulnerabilidades a la semana. Estos análisis (llamados plugins) se publican para uso gratuito una semana después de su puesta a disposición de los clientes de pago. OpenVAS (inicialmente Nessus) es un analizador libre que nació como una ramificación del último Nessus libre. Los análisis de vulnerabilidades son llamados NVT (Network Vulnerability Tests) (Guimi.net, 2009).
           .bloque-texto-f__autor.mb-3
-            h3.mb-0 - Nessus
+            h5.mb-0 - Nessus
 
     .row.mb-5.justify-content-center
       .col-lg-11
@@ -228,7 +216,7 @@
         p.mb-4 Al respecto:
         .row.mb-2.justify-content-center
           .col-lg-10.mb-5.mb-lg-0
-            .bloque-texto-b.color-secundario.p-0
+            .bloque-texto-b.color-secundario.pb-4.pe-4
                 .bloque-texto-b__texto
                   i.fas.fa-quote-left
                   span.mb-5  Los recursos en general y los datos en particular, se organizan en niveles y cada nivel debe tener una autorización. Dependiendo del recurso la autorización puede hacerse por medio de la firma en un formulario o mediante una contraseña, pero siempre es necesario que dicha autorización quede registrada para ser controlada posteriormente. En el caso de los datos, la autorización debe asegurar la confidencialidad e integridad, ya sea dando o negando el acceso en lectura, modificación, creación o borrado de los datos. Por otra parte, solo se dará la autorización a acceder a un recurso a aquellos usuarios que lo requieran para la realización de su trabajo y si no se le negará.
@@ -253,7 +241,7 @@
             .h2 1
           .h4.text-center 
             | Auditoría forense
-          p.text-center Es un servicio especializado para actuar ante un incidente de seguridad con el fin de recopilar evidencias digitales que permitan reunir la mayor información posible sobre el ilícito y sus operaciones.
+          p.text-center Es un servicio especializado para actuar ante un incidente de seguridad, con el fin de recopilar evidencias digitales que permitan reunir la mayor información posible sobre el ilícito y sus operaciones.
 
       .col-lg-10.mb-4
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
@@ -264,7 +252,7 @@
             .h2 2
           .h4.text-center
             | Auditorías de código
-          p.text-center Se refiere a pruebas de calidad del código fuente que permita identificar vulnerabilidades ante ataques informáticos y también ante el crecimiento de la demanda que la actividad realiza al software.
+          p.text-center Se refiere a pruebas de calidad del código fuente que permita identificar vulnerabilidades ante ataques informáticos y también ante el crecimiento de la demanda que la actividad realiza al #[i software].
 
       .col-lg-10.mb-4
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
@@ -275,7 +263,7 @@
             .h2 3
           .h4.text-center 
             | Auditoría web
-          p.text-center Este análisis está orientado a conocer las propiedades de las aplicaciones digitales y servicios web utilizados a diario en la estrategia de negocio para adelantarse a posibles riesgos y optimizar así la seguridad.
+          p.text-center Este análisis está orientado a conocer las propiedades de las aplicaciones digitales y servicios web utilizados a diario en la estrategia de negocio, para adelantarse a posibles riesgos y optimizar así la seguridad.
 
       .col-lg-10.mb-4
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
@@ -286,7 +274,7 @@
             .h2 4
           .h4.text-center 
             | Actualización de dispositivos 
-          p.text-center Hace referencia a verificar la actualización del software, antivirus y comprobar el cumplimiento de las reglas de firewalls.
+          p.text-center Hace referencia a verificar la actualización del #[i software], antivirus y comprobar el cumplimiento de las reglas de #[i firewalls].
 
       .col-lg-10.mb-4
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
@@ -296,8 +284,8 @@
           .tarjeta-numerada__numero
             .h2 5
           .h4.text-center 
-            | Hacking ético
-          p.text-center Se ponen a prueba las medidas de seguridad realizando un test de intrusión con técnicas de hacking, y tener así evidencia de la reacción.
+            | #[i Hacking] ético
+          p.text-center Se ponen a prueba las medidas de seguridad realizando un #[i test] de intrusión con técnicas de #[i hacking], y tener así evidencia de la reacción.
 
       .col-lg-10.mb-4
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
@@ -329,17 +317,17 @@
 
     .row.justify-content-center.mb-5
       .col-lg-11
-        .bloque-texto-a.color-acento-contenido--color2.p-4.p-md-3.mb-5 
+        .bloque-texto-a.color-acento-contenido--color2.p-4.p-md-3
             .row.m-0.align-items-center.justify-content-between
               .col-lg-9(style="padding-left: 50px;").mb-2
                 .bloque-texto-a__texto.p-4
                   p.mb-4 El cifrado de redes LAN inalámbricas se utiliza para añadir seguridad a una red inalámbrica mediante un protocolo de autenticación, que solicita una contraseña o clave de red cuando un usuario o dispositivo intenta conectarse. Si la red inalámbrica no está asegurada con algún tipo de cifrado, es posible que usuarios no autorizados accedan a ella y obtengan información personal, o que utilicen la conexión a Internet con fines maliciosos o ilegales. Además, también puede reducirse la velocidad o el rendimiento de la red si otras personas la utilizan sin conocimiento (Sony, 2021). 
-                  p Entre los más conocidos se encuentran:
+
               .col-lg-3.mb-2.mb-lg-0.align-self-center
                 figure
                   img(src='@/assets/curso/tema1/img9.svg', alt="Cifrados", style="width:206px;").mx-auto
-
-    .row.justify-content-center.mb-5
+    p Entre los más conocidos se encuentran:
+    .row.justify-content-center.my-5
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img10.svg', alt="Cifrados", style="width:70%;").mx-auto
@@ -371,8 +359,8 @@
       p Se trata de una función presente en los routers que mejora la seguridad, es el filtrado MAC, el cual permite restringir el acceso a recursos de un dispositivo específico, por ejemplo la red inalámbrica, acceso a Internet o servidor SAMBA.
 
 
-    h3.mb-5 Firewalls
-    p.mb-5 Sirven para proteger el equipo de conexiones salientes o entrantes a la red. Existen firewalls de software y de hardware; entre sus principales beneficios se encuentran:
+    h3.mb-5 #[i Firewalls]
+    p.mb-5 Sirven para proteger el equipo de conexiones salientes o entrantes a la red. Existen #[i Firewalls] de #[i software] y de #[i hardware]; entre sus principales beneficios se encuentran:
     
     .bg11.mb-5
       .row.justify-content-center.align-items-center        
@@ -399,7 +387,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   img.img-a.img-t(src='@/assets/curso/tema1/7.svg' alt='')
-              p.mb-0 Un hacker prefiere una computadora sin firewalls. 
+              p.mb-0 Un #[i hacker] prefiere una computadora sin #[i Firewalls]. 
             .tarjeta.color-acento-botones.bg12.p-4
               .row.justify-content-center.mb-3
                 .col-8
@@ -428,7 +416,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Anexo. Firewalls de software y de hardware
+            p Anexo. #[i Firewalls] de #[i software] y de #[i hardware]
 
 
 
@@ -442,7 +430,7 @@
                 img(src='@/assets/curso/tema1/img12.svg', alt="Detección de intrusos", style="width:60%;").mx-auto
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p Un Sistema de Detección de Intrusos (IDS: Intrusion Detection System), se implementa para detectar actividades inadecuadas, incorrectas o irregulares, ocurridas en el interior o exterior de los dispositivos e infraestructura de la red.
+                p Un Sistema de Detección de Intrusos (IDS: #[i Intrusion Detection System]), se implementa para detectar actividades inadecuadas, incorrectas o irregulares, ocurridas en el interior o exterior de los dispositivos e infraestructura de la red.
 
     p.mb-5 El IDS está basado en el patrón de comportamiento del intruso que es diferente al del usuario legítimo, por medio de análisis de estadísticas de uso. El IDS utiliza el uso de programas, archivos y dispositivos, a corto, mediano y largo plazo para crear los patrones de comportamiento de usuarios que permitan realizar la detección efectiva; también usa un sistema de reglas predefinidas llamadas firmas o rúbricas para representar las violaciones conocidas.
     h3.mb-4 Funcionalidad
@@ -451,7 +439,7 @@
       .col-lg-9.align-self-center
         p.mb-4 Se enfoca en el análisis detallado del tráfico de red y el uso de los dispositivos. La evaluación se lleva a cabo comparando el suceso con comportamientos sospechosos o firmas de ataques conocidos. Las bases de datos de firmas de ataques conocidos de los IDS permiten distinguir entre el uso normal y el uso fraudulento de un terminal de red, y/o entre el tráfico normal de la red y el tráfico inusual debido a un ataque o intento del mismo.
         .cajon.color-acento-contenido.p-4.mb-5
-          p Es importante para el IDS prestar atención si ocurre un escaneo de puertos, transmisión de paquetes de datos dañados, entre otros. El IDS generalmente se integra con el firewall, en la puerta de enlace de la red, uniendo así la inteligencia del IDS y el poder de bloqueo del firewall, en el lugar donde inevitablemente pasan los paquetes y se puedan bloquear antes de ingresar a la red.
+          p Es importante para el IDS prestar atención si ocurre un escaneo de puertos, transmisión de paquetes de datos dañados, entre otros. El IDS generalmente se integra con el #[i firewall], en la puerta de enlace de la red, uniendo así la inteligencia del IDS y el poder de bloqueo del #[i firewall], en el lugar donde inevitablemente pasan los paquetes y se puedan bloquear antes de ingresar a la red.
       .col-lg-3.align-self-center
         figure
           img(src='@/assets/curso/tema1/img13.svg', alt="Funcionalidad", style="width:100%;").mx-auto
@@ -479,7 +467,7 @@
               p 2
           .col
             .tarjeta.tarjeta--gris
-              p Ser tolerante a fallos en el sentido de que debe ser capaz de sobrevivir a una caída del sistema.
+              p Ser tolerante a fallos en el sentido que debe ser capaz de sobrevivir a una caída del sistema.
 
         .row.align-items-start.mb-2
           .col-auto        
@@ -487,7 +475,7 @@
               p 3
           .col
             .tarjeta.tarjeta--gris
-              p Ser resistente a perturbaciones, en el sentido en que puede monitorizarse a sí mismo para asegurarse de que no ha sido perturbado.
+              p Ser resistente a perturbaciones, en el sentido que puede monitorizarse a sí mismo para asegurarse de que no ha sido perturbado.
         
         .row.align-items-start.mb-2
           .col-auto        
@@ -495,7 +483,7 @@
               p 4
           .col
             .tarjeta.tarjeta--gris
-              p Imponer mínima sobrecarga sobre el sistema. Un sistema que consume muchos recursos computacionales no debe ser utilizado.
+              p Imponer mínima sobrecarga sobre el sistema. Un sistema que consume muchos recursos computacionales, no debe ser utilizado.
     
     .row
       .col-lg-12
@@ -540,7 +528,7 @@
               p Difícil de vulnerar y suministrar a los especialistas de seguridad cierta tranquilidad.
     
     .bg13.p-4    
-      p.mb-0 Siguiendo este tema, Infotecs (2019) afirma que: "cada día se crean nuevas técnicas para exponer o vulnerar sistemas computacionales, y es un gran desafío para la seguridad de la información acompañar esta velocidad, e incluso estar al frente y no actuar de forma reactiva. La implementación de una buena política de IDS es fundamental en una arquitectura de seguridad, ya que este recurso, si se actualiza constantemente, es capaz de mantener la infraestructura distante de ataques oportunistas, ya sea desde una perspectiva de la red, o por la propia exposición de un dispositivo. Para poner en funcionamiento, un sistema de detección de intrusos se debe tener en cuenta que es posible optar por una solución de hardware, de software, o incluso una combinación de estos. La posibilidad de introducir un elemento hardware es debido al alto procesamiento de información en redes con mucho tráfico; a su vez, los registros de firmas y las bases de datos con los posibles ataques necesitan gran cantidad de almacenamiento. En la actualidad, además, el desarrollo de las estrategias de seguridades para los dispositivos y las redes de comunicación ha influido en el surgimiento de un nuevo tipo de defensa a tomar en consideración: los IPS o Sistemas de Prevención de Intrusiones, que en buena medida pueden interpretarse como una evolución de los IDS tradicionales".
+      p.mb-0 Siguiendo este tema, Infotecs (2019) afirma que: "cada día se crean nuevas técnicas para exponer o vulnerar sistemas computacionales, y es un gran desafío para la seguridad de la información acompañar esta velocidad, e incluso estar al frente y no actuar de forma reactiva. La implementación de una buena política de IDS es fundamental en una arquitectura de seguridad, ya que este recurso, si se actualiza constantemente, es capaz de mantener la infraestructura distante de ataques oportunistas, ya sea desde una perspectiva de la red, o por la propia exposición de un dispositivo. Para poner en funcionamiento, un sistema de detección de intrusos se debe tener en cuenta que es posible optar por una solución de #[i hardware], de #[i software], o incluso una combinación de estos. La posibilidad de introducir un elemento #[i hardware] es debido al alto procesamiento de información en redes con mucho tráfico; a su vez, los registros de firmas y las bases de datos con los posibles ataques necesitan gran cantidad de almacenamiento. En la actualidad, además, el desarrollo de las estrategias de seguridades para los dispositivos y las redes de comunicación ha influido en el surgimiento de un nuevo tipo de defensa a tomar en consideración: los IPS o Sistemas de Prevención de Intrusiones, que en buena medida pueden interpretarse como una evolución de los IDS tradicionales".
 
     separador.mb-4
 
@@ -551,7 +539,7 @@
     p.mb-4 De acuerdo con Mifsud (2012):
     .row.mb-5.justify-content-center
       .col-lg-10.mb-5.mb-lg-0
-        .bloque-texto-b.color-secundario.p-0
+        .bloque-texto-b.color-secundario.pb-4.pe-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
               span.mb-2 
@@ -622,8 +610,8 @@
             img.img-a.img-t(src='@/assets/curso/tema1/cards/13.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
             .p-4
-              h3 Desbordamiento de buffer
-              p Ocurre cuando un programa no controla la cantidad de datos que se copian en buffer, si esa cantidad es superior a la capacidad del buffer los bytes sobrantes se almacenan en zonas de memoria adyacentes, sobrescribiendo su contenido original. Se aprovecha para ejecutar código que permita privilegios de administrador.
+              h3 Desbordamiento de #[i buffer]
+              p Ocurre cuando un programa no controla la cantidad de datos que se copian en #[i buffer], si esa cantidad es superior a la capacidad del #[i buffer] los bytes sobrantes se almacenan en zonas de memoria adyacentes, sobrescribiendo su contenido original. Se aprovecha para ejecutar código que permita privilegios de administrador.
     
     .row.justify-content-center
       .col-lg-10
@@ -632,7 +620,7 @@
             img.img-a.img-t(src='@/assets/curso/tema1/cards/14.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
             .p-4
-              h3 Condición de carrera (Race Condition)
+              h3 Condición de carrera (#[i Race Condition])
               p Sucede cuando varios procesos acceden al mismo tiempo a recursos compartidos.
 
     .row.justify-content-center
@@ -642,7 +630,7 @@
             img.img-a.img-t(src='@/assets/curso/tema1/cards/15.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
             .p-4
-              h3 Error de formato de cadena (Format String Bugs)
+              h3 Error de formato de cadena (#[i Format String Bugs])
               p Aquí se acepta la entrada de datos proporcionada por el usuario sin validar. Es un error de programación para el lenguaje C/C++. Un ataque con esta vulnerabilidad permite ejecutar código arbitrario y revelar información confidencial.
     
     .row.justify-content-center
@@ -652,8 +640,8 @@
             img.img-a.img-t(src='@/assets/curso/tema1/cards/16.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
             .p-4
-              h3 Cross Site Scripting (XSS)
-              p Incluye ataques que permiten ejecutar scripts como VBScript o JavaScript, en el ambiente de otro sitio web. Este error se presenta en aplicaciones que presentan la información en navegadores web. Esta vulnerabilidad realiza phishing constante con el fin de obtener contraseñas de usuarios atacados.
+              h3 #[i Cross Site Scripting] (XSS)
+              p Incluye ataques que permiten ejecutar scripts como VBScript o JavaScript, en el ambiente de otro sitio web. Este error se presenta en aplicaciones que presentan la información en navegadores web. Esta vulnerabilidad realiza #[i phishing] constante con el fin de obtener contraseñas de usuarios atacados.
 
     .row.justify-content-center
       .col-lg-10
@@ -682,7 +670,7 @@
             img.img-a.img-t(src='@/assets/curso/tema1/cards/19.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
             .p-4
-              h3 Ventanas engañosas (Window Spoofing)
+              h3 Ventanas engañosas (Window #[i Spoofing])
               p Estas ventanas ofrecen premios, rebajas, primicias mentirosas para capturar información y efectuar un ataque (Mifsud, 2012).
 
     separador.mb-4
@@ -847,8 +835,7 @@
         .bloque-texto-b.color-secundario.p-0
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              span.mb-2 
-                strong(style="font-size:24px;") La ventaja principal de la matriz de control es la facilidad para identificar los riesgos, determinar los controles existentes y proponer nuevos. Su principal desventaja es la cantidad de información y cuadros que se deben desarrollar, pues pueden dificultar, complicar o demorar su aplicación. Esta desventaja se ha subsanado con el uso de herramientas computarizadas. 
+              span.mb-2 #[b La ventaja principal de la matriz de control es la facilidad para identificar los riesgos, determinar los controles existentes y proponer nuevos. Su principal desventaja es la cantidad de información y cuadros que se deben desarrollar, pues pueden dificultar, complicar o demorar su aplicación. Esta desventaja se ha subsanado con el uso de herramientas computarizadas.] 
               i.fas.fa-quote-right
               //p.text-end.mb-0
                 b -  Artículo 18,  Acuerdo 617 de 2018
@@ -1011,7 +998,7 @@
         figure
           img(src='@/assets/curso/tema1/img20.svg', alt="Estimación de la vulnerabilidad", style="width:80%;").mx-auto
       .col-lg-8.align-self-center
-        p.mb-4 Es la probabilidad que tiene un sistema de sufrir probables pérdidas, pueden ser físicas o de software, esto debido a diferentes causas de acuerdo con el tipo de ataque que se realice. El riesgo se mide de acuerdo con la vulnerabilidad. Se estima con base en el período de recurrencia de los hechos. Teniendo en cuenta los diferentes componentes se mencionan:
+        p.mb-4 Es la probabilidad que tiene un sistema de sufrir probables pérdidas, pueden ser físicas o de #[i software], esto debido a diferentes causas de acuerdo con el tipo de ataque que se realice. El riesgo se mide de acuerdo con la vulnerabilidad. Se estima con base en el período de recurrencia de los hechos. Teniendo en cuenta los diferentes componentes se mencionan:
         .row.justify-content-center
           .col-lg-4.my-2
             .bg1.p-3.h-100.text-center.brad

@@ -8,7 +8,13 @@
         span
           i.fas.fa-info
       h1 Introducción
-    
+    p(data-aos="fade-down") Para comenzar con el estudio de la temática del componente formativo, lo invitamos a ver el siguiente video. 
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-12(data-aos="fade-left")     
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. 
 </template>
 
 <script>
