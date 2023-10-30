@@ -73,9 +73,10 @@
 
     #t_1_4.titulo-segundo.color-acento-contenido
       .h2 1.4 Ataques a la seguridad de la red
+    p Para conocer sobre este tema, lo invitamos a ver el siguiente video.   
     figure
       .video
-        iframe(width="734" height="413" src="https://www.youtube.com/embed/x56FT_OVARQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="734" height="413" src="https://www.youtube.com/embed/x56FT_OVARQ?si=FAFaICz8Ddji00p8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     figcaption Video. Ataques de seguridad en la red
 
     .h3.mt-5.mb-4 Ataques pasivos
@@ -408,17 +409,7 @@
                 .col-8
                   img.img-a.img-t(src='@/assets/curso/tema1/11.svg' alt='')
               p.mb-0 Controlan el uso de internet. Permiten bloquear el material no adecuado (Seguridad en la red, s.f.). 
-    
-
-    .row.mb-5.justify-content-end
-      .col-lg-5
-        a.anexo.mb-4(:href="obtenerLink('downloads/Firewall.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Anexo. #[i Firewalls] de #[i software] y de #[i hardware]
-
-
+   
 
     h3.mb-5 Detección de intrusos
     .row.justify-content-center.mb-4

@@ -190,7 +190,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228183_CF01_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -417,12 +417,6 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor metodológico y pedagógico',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
           nombre: 'Carlos Mauricio Tovar Artunduaga',
           cargo: 'Experto temático',
           centro:
@@ -441,21 +435,10 @@ export default {
             'Centro de Teleinformática y Producción Industrial Regional Cauca',
         },
         {
-          nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Gestión Industrial Regional Distrito Capital',
-        },
-        {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Metodólogo para formación virtual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de estilo',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
         },
       ],
     },
@@ -539,6 +522,18 @@ export default {
           cargo: 'Validación de diseño y contenido',
           centro:
             'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+        {
+          nombre: 'Carmen Alicia Martinez Torres ',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Edward Leonardo Pico Cabra',
