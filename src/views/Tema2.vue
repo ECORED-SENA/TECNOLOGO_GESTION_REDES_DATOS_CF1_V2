@@ -249,7 +249,8 @@
             p.text-center La NTC ISO 27001, posee una estructura de alto nivel, llamada también Anexo SL, en la cual se abarcan diferentes aspectos que se pueden visualizar en la siguiente tabla.
 
     .titulo-sexto.color-acento-contenido
-      h5 Estructura ISO-27001
+      h5 Tabla 3.
+      span Estructura ISO-27001
 
     .tabla-a.mb-5 
       table

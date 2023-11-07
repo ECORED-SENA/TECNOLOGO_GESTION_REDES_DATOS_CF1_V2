@@ -120,7 +120,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema1/tabsC/img2.svg', alt='Modificación', style="width:85%;").mx-auto
+              img(src='@/assets/curso/tema1/tabsC/img2.svg', alt='Imagen que presenta una modificación de mensajes.', style="width:85%;").mx-auto
               
           .col-md-6.align-self-center
             h4.mb-4 Modificación de mensajes
@@ -130,7 +130,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema1/tabsC/img3.svg', alt='Repetición', style="width:85%;").mx-auto
+              img(src='@/assets/curso/tema1/tabsC/img3.svg', alt='Imagen que presenta una repetición.', style="width:85%;").mx-auto
               
           .col-md-6.align-self-center
             h4.mb-4 Repetición
@@ -140,7 +140,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema1/tabsC/img4.svg', alt='Suplantación', style="width:85%").mx-auto
+              img(src='@/assets/curso/tema1/tabsC/img4.svg', alt='Imagen que presenta una suplantación.', style="width:85%").mx-auto
               
           .col-md-6.align-self-center
             h4.mb-4 Suplantación de identidad
@@ -177,7 +177,7 @@
                 span Descargar
                 i.fas.fa-file-download
 
-    p.mb-5 Otro tipo de herramientas son los analizadores de seguridad para localizar todo tipo de posibles problemas que permiten detectar y exponer aplicaciones conocidas por su fragilidad, configuraciones particulares inseguras, uso de claves predefinidas y múltiples bugs y sus exploits. Uno de estos analizadores es Nessus:
+    p.mb-5 Otro tipo de herramientas son los analizadores de seguridad para localizar todo tipo de posibles problemas que permiten detectar y exponer aplicaciones conocidas por su fragilidad, configuraciones particulares inseguras, uso de claves predefinidas y múltiples #[i bugs] y sus #[i exploits]. Uno de estos analizadores es Nessus:
 
     //- .bloque-texto-f debe ir acompañado de una de una de estas clases => 
     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -187,7 +187,7 @@
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
-          p.mb-5.text-center.text-regular.bloque-texto-f__texto Una aplicación gratuita para uso no comercial (en origen era libre). Sus desarrolladores producen decenas de nuevos análisis de vulnerabilidades a la semana. Estos análisis (llamados plugins) se publican para uso gratuito una semana después de su puesta a disposición de los clientes de pago. OpenVAS (inicialmente Nessus) es un analizador libre que nació como una ramificación del último Nessus libre. Los análisis de vulnerabilidades son llamados NVT (Network Vulnerability Tests) (Guimi.net, 2009).
+          p.mb-5.text-center.text-regular.bloque-texto-f__texto Una aplicación gratuita para uso no comercial (en origen era libre). Sus desarrolladores producen decenas de nuevos análisis de vulnerabilidades a la semana. Estos análisis (llamados #[i plugins]) se publican para uso gratuito una semana después de su puesta a disposición de los clientes de pago. OpenVAS (inicialmente Nessus) es un analizador libre que nació como una ramificación del último Nessus libre. Los análisis de vulnerabilidades son llamados NVT (#[i Network Vulnerability Tests]) (Guimi.net, 2009).
           .bloque-texto-f__autor.mb-3
             h5.mb-0 - Nessus
 
@@ -674,8 +674,6 @@
         .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
           img(src="@/assets/curso/tema1/img7.svg", alt="Análisis de seguridad de la red", style="width:80%;").mx-auto
         .col-md.col-lg-6
-          .titulo-segundo.color-acento-contenido.mb-4
-            h3 Análisis de seguridad de la red
           p.mb-4 El análisis de la seguridad en la red se debe realizar para detectar irregularidades, comportamiento inusual de usuarios y demás amenazas. Para ello, se almacenan datos de la organización, se convierten en información accionable, de manera que los profesionales de tecnología de la información (TI) actúen con rapidez y se minimicen los riesgos.
           a.boton.color-acento-botones(:href="obtenerLink('downloads/Analisis_de_seguridad_de_la_Red.pdf')" target="_blank" type="application/pdf")
             span.text-white Descargar
@@ -949,7 +947,7 @@
                 .row.justify-content-center
                   .col-auto(style=" background-color:#f00;")
                     p.p-4
-              td(colspan=5, style="font-size:16px; background-color:#fff;") Riesgo muy grave. Requieren mitigación: planes de actuación correctivas. Requiere medidas correctivas urgentes. No se debe iniciar el proyecto sin la apicación de medidas preventivas urgentes y sin acotar sólidamente el riesgo.
+              td(colspan=5, style="font-size:16px; background-color:#fff;") Riesgo muy grave. Requieren mitigación: planes de actuación correctivos. Requiere medidas correctivas urgentes. No se debe iniciar el proyecto sin la aplicación de medidas preventivas urgentes y sin acotar sólidamente el riesgo.
             
             tr
               td(colspan=1, style="font-size:16px; ")

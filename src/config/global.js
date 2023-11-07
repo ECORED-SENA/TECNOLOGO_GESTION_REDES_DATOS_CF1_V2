@@ -345,18 +345,10 @@ export default {
     },
     {
       referencia: 'Infotecs. (2019). Sistema de detección de intrusos.',
-      link: 'https://infotecs.mx/blog/sistema-de-deteccion-de-intrusos.html',
     },
     {
       referencia:
         'ISOTools Excellence (s.f.). Plataforma tecnológica para la gestión de la excelencia.',
-      link: 'https://www.isotools.com.co/normas/ntc-iso-27001 ',
-    },
-    {
-      referencia:
-        'ITCFA-Fepade. (s.f.). Configuración de mecanismos de seguridad U4.6 Ataques pasivos vs ataques activos.',
-      link:
-        'https://virtual.itca.edu.sv/Mediadores/cms/u46_ataques_pasivos_vs_ataques_activos.html',
     },
     {
       referencia:
@@ -370,19 +362,12 @@ export default {
     {
       referencia:
         'Noriega, C. (2016). Sistemas operativos de software libre para servidores.',
-      link:
-        'https://sites.google.com/site/isctallerdesistemasoperativos1/unidad-3---sistemas-operativos-de-software-libres-para-servidores',
     },
     {
       referencia:
         'Seguinfo. (2008). Políticas, normas, procedimientos de seguridad y otros documentos de un SGSI',
       link:
         'https://seguinfo.wordpress.com/2008/07/31/politicas-normas-procedimientos-de-seguridad-y-otros-documentos-de-un-sgsi/',
-    },
-    {
-      referencia: 'Seguridad en la red. (s.f.). Seguridad en la red.',
-      link:
-        'https://sites.google.com/site/seguridadenlaared/concepcion-de-la-seguridad-de-la-informacion/integridad',
     },
     {
       referencia:
