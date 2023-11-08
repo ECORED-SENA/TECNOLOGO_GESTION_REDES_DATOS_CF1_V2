@@ -77,7 +77,7 @@
     figure
       .video
         iframe(width="734" height="413" src="https://www.youtube.com/embed/x56FT_OVARQ?si=FAFaICz8Ddji00p8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    figcaption Video. Ataques de seguridad en la red
+    figcaption Video. Ataques a la seguridad de la red
 
     .h3.mt-5.mb-4 Ataques pasivos
     p.mb-5 En lo referente a la Configuración de mecanismos de seguridad (ITCFA-Fepade, s.f.), se enuncia que: […] el atacante no altera la comunicación, sino que únicamente la escucha o monitoriza, para obtener información que está siendo transmitida. Sus objetivos son la intercepción de datos y el análisis de tráfico, una técnica más sutil para obtener información de la comunicación, que puede consistir en:
