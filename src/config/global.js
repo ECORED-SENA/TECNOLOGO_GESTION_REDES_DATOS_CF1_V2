@@ -356,8 +356,6 @@ export default {
     },
     {
       referencia: 'Mifsud, E. (2012). Introducción a la seguridad informática.',
-      link:
-        'http://recursostic.educacion.es/observatorio/web/ca/software/software-general/1040-introduccion-a-la-seguridad-informatica?showall=1',
     },
     {
       referencia:
